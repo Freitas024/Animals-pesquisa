@@ -3,13 +3,13 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    color: #b5c99a;
 }
 
 .header {
     width: 100%;
     height: 4rem;
-    background-color: #1E1E1E;
+    background-color: #e9f5db;
 
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@
 
 .body {
     height: 100%;
-    background-color: #808080;
+    background-color: none;
 
     display: flex;
     align-items: center;
@@ -61,7 +61,8 @@
     border: none;
     border-radius: 3px;
 
-    color: #000000;
+    color: #6c584c;
+    background-color: #faedcd;
 }
 
 .button {
@@ -69,7 +70,7 @@
     height: 4vh;
 
     color: #FFFFFF;
-    background-color: #2d38d0;
+    background-color: #cb997e;
     border: none;
     border-radius: 6px;
     margin-left: 1rem;
@@ -78,17 +79,49 @@
 .button:hover {
     
     transition: all 1s;
-    background-color: #1c2492;
+    background-color: #ca7446;
 
     cursor: pointer;
     
 }
 
 .card {
-    background-color: #1E1E1E;
+    background-color: #faedcd;
 
-    width: 24rem;
+    height: 18rem;
+    width: 60rem;
+    border: none;
+    border-radius: 12px;
 
-    margin: 3rem;
-    padding: 3rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+    margin: 2rem;
+
+    overflow: hidden;
+}
+
+.card-information {
+    padding: 1rem;
+}
+
+.card-image {
+
+    width: 40%;
+    height: 100%;
+}
+
+.card-information-title {
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 0px 0px 24px 0px;
+}
+
+.card-information-text {
+
+    text-indent: 1rem;
+    text-align: justify;
 }
